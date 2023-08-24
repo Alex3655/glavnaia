@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-color: #AD66D5;
+    color: white;
+}
+
+header {
+    background-color: #4C036E;
+    height: 130px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+}
+
+.glavnay1 {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 23px;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+    float: left;
+    color: white;
+    left: 8px;
+}
+
+.glavnay2 {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 23px;
+    right: 60px;
+    font-size: 25px;
+    position: relative;
+    top: 48px;
+    color: white;
+}
+
+.glavnay3 {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 23px;
+    font-size: 25px;
+    position: relative;
+    top: 24px;
+    color: white;
+    float: right;
+    right: 8px;
+}
+
+.glavnay4 {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 23px;
+    left: 60px;
+    font-size: 25px;
+    position: relative;
+    top: 48px;
+    color: white;
+}
+
+.glavnay1:hover {
+    font-size: 27px;
+    padding: 26px;
+}
+
+.glavnay2:hover {
+    font-size: 27px;
+    padding: 26px;
+}
+
+.glavnay3:hover {
+    font-size: 27px;
+    padding: 26px;
+}
+
+.glavnay4:hover {
+    font-size: 27px;
+    padding: 26px;
+}
+
+.dfgh {
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(45, 0, 104);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.dfgh:hover {
+    width: 330px;
+    height: 300px;
+    border: 4px solid rgb(45, 0, 104);
+    padding: 2px;
+    border-radius: 13px;
+}
+
+.dfg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    background-color: #AD66D5;
+}
+
+.asdfgh {
+    display: flex;
+    justify-content: space-around;
+}
